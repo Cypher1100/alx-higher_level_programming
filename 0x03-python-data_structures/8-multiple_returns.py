@@ -5,6 +5,6 @@ def multiple_returns(sentence):
     if (senlength == 0):
         strtuple = (senlength, None)
     else:
-        new_tuple = (senlength, sentence[0])
+        strtuple = (senlength, sentence[0])
 
     return (strtuple)
