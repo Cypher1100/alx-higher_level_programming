@@ -4,8 +4,8 @@ def roman_to_int(roman_string):
     result = 0
     if not roman_string:
         return 0
-    if not isinstance(roman_string):
-        return o
+    if not isinstance(roman_string, str):
+        return 0
 
     for rs in range(len(roman_string)):
         if rs + 1 != len(roman_string) and rd[roman_sring[rs]] < rd[roman_string[rs + 1]]:
