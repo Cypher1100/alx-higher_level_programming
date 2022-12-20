@@ -1,16 +1,15 @@
 #!/usr/bin/python3
-"""Square object module"""
-
+"""My square object module"""
 
 
 class Square:
-    """Defines a square"""
+    """defines a square"""
 
     def __init__(self, size=0, position=(0, 0)):
         """Create a Square
         Args:
             size: length of a side of Square
-            position: coordinates
+            position: Coordinates if the square
         """
         self.size = size
         self.position = position
