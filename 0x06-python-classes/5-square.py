@@ -1,18 +1,14 @@
 #!/usr/bin/python3
-"""Defines a square """
+"""Defines a square object"""
 
 
 class Square:
-    """Represents a square onject"""
+    """Represents a square"""
 
     def __init__(self, size=0):
         """Initializing this square class
         Args:
-            size: represnets the size of the square defined
-        Raises:
-            TypeError: if size is not integer
-            ValueError: if size is less than zero
-        """
+         """
 
         if not isinstance(size, int):
             raise TypeError('size must be an integer')
@@ -23,7 +19,7 @@ class Square:
 
     @property
     def size(self):
-        """Retrieves the size of square object"""
+        """Retrieves size of square"""
 
         return self.__size
 
@@ -37,17 +33,14 @@ class Square:
 
     def area(self):
         """
-        Calculates the area of the square object
+        Calculate area of the square
         Returns: The square of the size
         """
 
         return (self.__size ** 2)
 
     def my_print(self):
-        """
-        prints the square value 
-        with the character # 
-        """
+        """print the square in # """
 
         if self.__size == 0:
             print()
